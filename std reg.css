@@ -1,0 +1,132 @@
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(191, 217, 244);
+    
+}
+.dob{
+    margin-left: 600px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow:5px 5px 2px rgb(61, 60, 59);
+}
+#dob{
+    width: 20%;
+    border-radius: 10px;
+    box-shadow:5px 5px 2px rgb(61, 60, 59);
+}
+fieldset{
+    border-radius: 10px;
+}
+#cityname{
+
+margin-right: -15px;
+width: 30%;
+border-radius: 10px;
+    /* box-shadow:5px 5px 2px rgb(61, 60, 59); */
+
+}
+#landmark{
+    margin-right: 35px;
+    width: 30%;
+    border-radius: 10px;
+    /* box-shadow:5px 5px 2px rgb(61, 60, 59); */
+}
+#state{
+    width: 30%;
+    margin-left: 5px;
+    border-radius: 10px;
+    /* box-shadow:5px 5px 2px rgb(61, 60, 59); */
+
+}
+#country{  
+    width: 30%;
+    margin-right: 18px;
+    border-radius: 10px;
+    /* box-shadow:5px 5px 2px rgb(61, 60, 59); */
+}
+#pincode{
+    width: 30%;
+    margin-right: 20px;
+    border-radius: 10px;
+    /* box-shadow:5px 5px 2px rgb(61, 60, 59); */
+}
+#file3{
+    width: 11%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+#bca{
+    cursor: pointer;
+
+}
+.header h1{
+    font-size:25px;
+    padding-top: 10px;
+}
+    .header{
+background-color: ivory;
+display: grid;
+border-radius: 10px;
+    }
+
+
+#fname{
+    /* box-shadow:5px 5px 2px rgb(61, 60, 59); */
+    border-radius: 10px;
+    height: 20;
+}
+#lname{
+    /* box-shadow:5px 5px 2px rgb(61, 60, 59); */
+    border-radius: 10px;
+}
+.sname:hover{
+    /* /* background-color: rgb(29, 76, 76); */
+    
+}
+.sname{
+    border-radius: 10px;
+    box-shadow:5px 5px 2px rgb(61, 60, 59);
+}
+.fname{
+    border-radius: 10px;
+    box-shadow:5px 5px 2px rgb(61, 60, 59);
+}
+.address{
+    border-radius: 10px;
+    box-shadow:5px 5px 2px rgb(61, 60, 59); 
+}
+.course{
+    border-radius: 10px;
+    box-shadow:5px 5px 2px rgb(61, 60, 59);
+}
+.interest{
+    border-radius: 10px;
+    box-shadow:5px 5px 2px rgb(61, 60, 59);
+}
+.documents{
+    border-radius: 10px;
+    box-shadow:5px 5px 2px rgb(61, 60, 59);
+}
+#sports{
+    cursor: pointer;
+
+}
+.files{
+    padding-left: 70px;
+}
+#file{
+    cursor: pointer;
+
+}
+#reset{
+padding-right: 400px;
+}
+#submit{
+    cursor: pointer;
+
+}
+.footer{
+    border-radius: 10px;
+    cursor: pointer;
+}

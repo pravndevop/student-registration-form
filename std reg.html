@@ -1,0 +1,147 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="std reg.css">
+</head>
+
+<body>
+    <form action="/action_page.php">
+        <div class="header">
+            <h1>STUDENT REGISTRATION FORM</h1>
+            <!-- <p>Fill out this form carefully</p> -->
+        </div>
+        <hr>
+        <div class="container">
+            <div class="sname">
+                <h4>STUDENT NAME</h4>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+            </div>
+            <div class="fname">
+                <h4>FATHER NAME</h4>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+            </div>
+            <div class="dob">
+                <h4>DATE OF BIRTH</h4>
+                <input type="date" name="dob" id="dob"><br>
+            </div>
+            <div class="address">
+                <h4>ADDRESS</h4>
+                <div class="add">
+                    <fieldset>
+
+                        <legend><b><i>Current Address:</i></b></legend>
+                        <label for="cityname">City:</label>
+                        <input type="text" id="cityname" name="cityname"><br><br>
+                        <label for="landmark">Landmark:</label>
+                        <input type="text" id="landmark" name="cityname"><br><br>
+                        <label for="state">State:</label>
+                        <select name="state" id="state" size=" ">
+                            <option value="tamilunadu">Tamilunadu</option>
+                            <option value="andrapradesh">Andra Pradesh</option>
+                            <option value="karataka">Karnataka</option>
+                            <option value="kerala">Kerala</option>
+                            <option value="maharashatra">Maharashtra</option>
+                        </select><br><br>
+                        <label for="country">Country:</label>
+                        <select name="country" id="country" size=" ">
+                            <option value="india">India</option>
+                            <option value="usa">USA</option>
+                            <option value="spane">Spane</option>
+                            <option value="china">China</option>
+                            <option value="srilanka">SriLanka</option>
+                        </select><br><br>
+                        <label for="pincode">PinCode:</label>
+                        <input type="number" id="pincode" name="pincode">
+
+
+                    </fieldset><br>
+                    <fieldset>
+                        <legend><b><i>Permanent Address:</i></b></legend>
+                        <label for="cityname">City:</label>
+                        <input type="text" id="cityname" name="cityname"><br><br>
+                        <label for="landmark">Landmark:</label>
+                        <input type="text" id="landmark" name="cityname"><br><br>
+                        <label for="state">State:</label>
+                        <select name="state" id="state" size=" ">
+                            <option value="tamilunadu">Tamilunadu</option>
+                            <option value="andrapradesh">Andra Pradesh</option>
+                            <option value="karataka">Karnataka</option>
+                            <option value="kerala">Kerala</option>
+                            <option value="maharashatra">Maharashtra</option>
+                        </select><br><br>
+                        <label for="country">Country:</label>
+                        <select name="country" id="country" size=" ">
+                            <option value="india">India</option>
+                            <option value="usa">USA</option>
+                            <option value="spane">Spane</option>
+                            <option value="china">China</option>
+                            <option value="srilanka">SriLanka</option>
+                        </select><br><br>
+                        <label for="pincode">PinCode:</label>
+                        <input type="number" id="pincode" name="pincode">
+                    </fieldset>
+                </div>
+            </div>
+            <div class="course">
+                <h4> CHOOSE YOUR COURSE</h4>
+                <div class="radio">
+                    <input type="radio" id="bca" name="course">
+                    <label for="bca">BCA</label>&nbsp;&nbsp;
+                    <input type="radio" id="bca" name="course">
+                    <label for="bca">BCom</label>&nbsp;&nbsp;
+                    <input type="radio" id="bca" name="course">
+                    <label for="bca">BBA</label>&nbsp;&nbsp;
+                    <input type="radio" id="bca" name="course">
+                    <label for="bca">BSc</label>&nbsp;&nbsp;
+                    <input type="radio" id="bca" name="course">
+                    <label for="bca">BBM</label>
+                </div>
+
+            </div>
+            <div class="interest">
+                <h4>YOUR INTEREST</h4>
+                <div class="checkbox">
+                    <input type="checkbox" id="sports" name="interset">
+                    <label for="sports">Sports</label>&nbsp;&nbsp;
+                    <input type="checkbox" id="sports" name="interset">
+                    <label for="sports">Cultural</label>&nbsp;&nbsp;
+                    <input type="checkbox" id="sports" name="interset">
+                    <label for="sports">Red Cross</label>&nbsp;&nbsp;
+                    <input type="checkbox" id="sports" name="interset">
+                    <label for="sports">NCC</label><br>
+                </div>
+            </div>
+            <div class="documents">
+                <h4>DOCUMENTS</h4>
+                <div class="files">
+                    <label for="file1">Adhar card:</label>
+                    <input type="file" name="file" id="file1" name="documents"><br><br>
+                    <label for="file1">Marks card:</label>
+                    <input type="file" name="file" id="file1" name="documents"><br><br>
+                    <label for="file"> Photo:</label>
+                    <input type="file" name="file" id="file3" name="documents">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer">
+            <span id="reset">
+                <input type="reset" name="" id="submit">
+            </span>
+            <span id="submit">
+                <input type="submit" name="" id="submit"><br>
+            </span>
+        </div>
+    </form>
+
+</html>
